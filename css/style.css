@@ -1,0 +1,460 @@
+.lexend-regular {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    font-family: Lexend;
+}
+
+.navbar {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 5px 5px -1px rgba(25, 32, 76, 0.75);
+    -webkit-box-shadow: 1px 5px 5px -1px rgba(25, 32, 76, 0.75);
+    -moz-box-shadow: 1px 5px 5px -1px rgba(25, 32, 76, 0.75);
+}
+
+.navbar-left a {
+    font-weight: 500;
+    color: black;
+    font-family: Lexend;
+}
+
+.navbar-left a:hover {
+    color: gray;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+    font-family: Lexend;
+}
+
+.navbar-left>*,
+.navbar-right>* {
+    margin: 10px;
+}
+
+.sign-in,
+.join-now {
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+
+.sign-in {
+    border: 1px solid black;
+    color: black;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+}
+
+.join-now:hover {
+    background-color: gray;
+}
+
+.sign-in:hover {
+    background-color: gray;
+}
+
+.carousel-indicators [data-bs-target] {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 24px;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    top: 3px;
+}
+
+.carousel-options {
+    position: absolute;
+    top: 50%;
+    /* Centrar verticalmente */
+    left: 50%;
+    /* Centrar horizontalmente */
+    transform: translate(-50%, -50%);
+    /* Centrar absolutamente */
+    z-index: 1;
+    /* Asegurar que esté por encima de las imágenes */
+}
+
+.overlay-content {
+    text-align: center;
+    color: white;
+}
+
+.overlay-content h2 {
+    font-size: 60px;
+}
+
+.overlay-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.overlay-button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.productos-title {
+    position: relative;
+    display: block;
+    top: 40px;
+    bottom: 50px;
+}
+
+.productos-title h4 {
+    font-weight: 500px;
+    position: relative;
+    display: flexbox;
+    padding: 0px 25%;
+}
+
+.productos-title p {
+    font-weight: 500px;
+    position: relative;
+    display: flexbox;
+    top: 10px;
+    padding: 0px 25%;
+}
+
+.saber-mas {
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    top: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-left: 25%;
+    cursor: pointer;
+}
+
+.saber-mas:hover {
+    background-color: gray;
+}
+
+.how-it-works {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    /* Para centrar el texto dentro del contenedor */
+}
+
+.how-it-works h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.how-it-works-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.how-it-works-image {
+    margin-top: 30px;
+    max-width: 450px;
+    margin-right: 60px;
+}
+
+.how-it-works-details {
+    display: flex;
+    /* Para alinear el contenido horizontalmente */
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    /* Alinear el texto a la izquierda */
+}
+
+.how-it-works-details>div {
+    max-width: 600px;
+    /* Limitar el ancho del contenido de texto */
+}
+
+.how-it-works-details h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+.how-it-works-details p {
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.learn-more {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.learn-more:hover {
+    background-color: gray;
+}
+
+.connect-home {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.connect-home h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.connect-home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.connect-home-images {
+    max-width: 600px;
+    margin-bottom: 30px;
+    /* Espacio entre la imagen y el texto */
+}
+
+.connect-home-images img {
+    max-width: 450px;
+    margin-bottom: 30px;
+    /* Espacio entre la imagen y el texto */
+}
+
+.connect-home-text {
+    text-align: center;
+}
+
+.connect-home-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.connect-home-text p {
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: gray;
+}
+
+.separator {
+    border: none;
+    border-top: 1px solid #494949;
+    /* Establece el estilo de la línea */
+    width: 50%;
+    margin: 20px auto;
+    /* Espacio alrededor de la línea */
+}
+
+.faq-section {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.faq-section h2 {
+    font-size: 40px;
+}
+
+.faq-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.faq-item {
+    max-width: 300px;
+    /* Ajusta el ancho máximo del contenedor de cada pregunta */
+    margin: 0 20px;
+    /* Espacio entre cada pregunta */
+    text-align: center;
+    /* Centra el contenido */
+}
+
+.faq-item .faq-image {
+    margin-bottom: 10px;
+    /* Espacio entre la imagen y la pregunta */
+}
+
+.faq-item .faq-image img {
+    margin-top: 30px;
+    max-width: 100%;
+    /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+}
+
+.faq-item h3 {
+    font-size: 24px;
+}
+
+.faq-item p {
+    margin-top: 30px;
+}
+
+.faq-item:nth-child(2) .faq-image img {
+
+    max-width: auto;
+    /* Cambia el ancho máximo de la imagen de la pregunta 2 */
+    height: 73px;
+    /* Mantiene la proporción de aspecto */
+}
+
+.faq-item:nth-child(1) h3 {
+    max-width: 230px;
+    margin: 0 auto;
+}
+
+.faq-item:nth-child(2) h3 {
+    margin-bottom: 40px;
+}
+
+.faq-item:nth-child(2) p {
+    margin: -10px auto 10px;
+    /* Margen superior e inferior ajustado */
+    max-width: 230px;
+    /* Ajusta el ancho máximo del texto */
+
+}
+
+.button-container {
+    text-align: center;
+    /* Centra horizontalmente los botones */
+}
+
+.faq-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    /* Espacio entre el párrafo y el botón */
+}
+
+.faq-button:hover {
+    background-color: #333;
+}
+
+.faq-item:nth-child(2) .faq-button {
+    margin-top: 20px;
+    /* Ajusta el margen superior del segundo botón */
+}
+
+.footer {
+    background-color: #192024;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.copy {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    /* Contenedor para los primeros tres divs */
+    display: flex;
+    justify-content: space-around;
+    /* Mantiene el diseño original para los divs */
+    align-items: center;
+    text-align: center;
+}
+
+.social-link {
+    padding: 5px 0;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.contacto-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.social-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.app-icon {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.app-icon-upc {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.ultimo-sismo-title {
+    position: relative;
+    display: block;
+    top: 40px;
+    bottom: 50px;
+}
+
+.ultimo-sismo-text h4 {
+    position: relative;
+    margin-top: 30px;
+    font-family: Lexend;
+    font-weight: lighter;
+    display: flexbox;
+    padding: 0 350px;
+}
+
+.ultimo-sismo-text p {
+    position: relative;
+    margin-top: 10px;
+    font-family: Lexend;
+    font-weight: lighter;
+    display: flexbox;
+    top: 10px;
+    padding: 0 350px;
+}
